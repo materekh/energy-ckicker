@@ -31,6 +31,11 @@ nav{
 #money{
     display: flex;
 }
+.buttonin{
+    display:flex;
+    gap:10px;
+    align-items: end;
+}
 .display{
     /* background: radial-gradient(rgb(2, 78, 255)20%,rgb(85, 227, 255) 40%,rgb(0, 42, 159)); */
     background-color: white;
