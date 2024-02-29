@@ -103,8 +103,8 @@ shop.generator.button.addEventListener("click",()=>{
     }
 })
 shop.coingen.button.addEventListener("click",()=>{
-    shop.coingen.amount++;
     if(money.amount>=shop.coingen.cost){
+        shop.coingen.amount++;
         money.amount-=shop.coingen.cost
         money.perSec+=0.1
         shop.coingen.cost+=0.01;
