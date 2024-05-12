@@ -208,3 +208,53 @@ nav{
     align-items: end;
     flex-direction: column;
 }
+footer{
+    position: absolute;
+    bottom:0px;
+    color:white;
+    background-color: black;
+    width:100%;
+    height: 40px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+#menu{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-image: url(./energybg.png);
+    image-rendering: pixelated;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+    flex-direction: column;
+    gap:50px;
+    /* background-color: black; */
+}
+#bgpic{
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated;
+}
+#playbtn{
+    width:200px;
+    height:50px;
+    border-radius: 3px;
+    border:2px solid #8c6c00;
+    font-size: 30px;
+    color:white;
+    background-color: #cd9d00;
+}
+#playbtn:hover{
+    background-color: #ba8f00;
+}
+#playbtn:active{
+    background-color: #9e7900;
+}
+#title{
+    image-rendering: pixelated;
+    width: 1200px;
+}
